@@ -1,3 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MTMS Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #141414;
+      color: #fff;
+    }
+    .header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      font-size: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+    .card {
+      background: #1e1e1e;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s;
+      cursor: pointer;
+      text-align: center;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 15px 0 10px;
+      font-size: 1.2rem;
+    }
+    .card p {
+      color: #ccc;
+      font-size: 0.95rem;
+      padding: 0 10px 20px;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  🎬 Movie & Theater Management System Dashboard
+</div>
+
+<div class="grid">
+  <a href="movies.html">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x180.png?text=Movies" alt="Movies">
+      <h3>Manage Movies</h3>
+      <p>View, add, or edit movie listings with posters and details.</p>
+    </div>
+  </a>
+  <a href="shows.html">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x180.png?text=Shows" alt="Shows">
+      <h3>Show Schedule</h3>
+      <p>Manage movie show timings and screen allocations.</p>
+    </div>
+  </a>
+  <a href="tickets.html">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x180.png?text=Tickets" alt="Tickets">
+      <h3>Tickets</h3>
+      <p>Track and issue tickets, seat availability and bookings.</p>
+    </div>
+  </a>
+  <a href="screens.html">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x180.png?text=Screens" alt="Screens">
+      <h3>Screens & Theatres</h3>
+      <p>Control screen setup and theater room arrangements.</p>
+    </div>
+  </a>
+  <a href="customers.html">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x180.png?text=Customers" alt="Customers">
+      <h3>Customers</h3>
+      <p>View customer info, preferences, and booking history.</p>
+    </div>
+  </a>
+  <a href="staff.html">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x180.png?text=Staff" alt="Staff">
+      <h3>Staff</h3>
+      <p>Manage staff records and role assignments.</p>
+    </div>
+  </a>
+  <a href="snacks.html">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x180.png?text=Snacks" alt="Snacks">
+      <h3>Snacks</h3>
+      <p>Monitor snack inventory and sales by showtime.</p>
+    </div>
+  </a>
+  <a href="reports.html">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x180.png?text=Reports" alt="Reports">
+      <h3>Reports</h3>
+      <p>Generate detailed reports on sales and performance.</p>
+    </div>
+  </a>
+</div>
+
+</body>
+</html>
 
 <!DOCTYPE html>
 <html lang="en">
